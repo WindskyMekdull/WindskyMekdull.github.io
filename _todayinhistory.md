@@ -4,7 +4,7 @@ layout: article
 
 ## 历史上的今天
 
-<p id='todinhis'>出错了捏</p>
+<p id='todinhis'>A F**king Error F**king appears</p>
 
 <script>
   let today = new Date();
