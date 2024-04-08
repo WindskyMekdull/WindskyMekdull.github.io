@@ -3,8 +3,8 @@ backend:
   # repo: WindskyMekdull/WindskyMekdull.github.io
   branch: main # Branch to update (optional; defaults to master)
 
-site_url: https://AlexEinstein.github.io
-display_url: https://AlexEinstein.github.io
+site_url: https://qiuuu1504.github.io
+display_url: https://qiuuu1504.github.io
 # logo_url: https://shwst.one/images/
 locale: 'cn'
 
