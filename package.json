@@ -52,10 +52,5 @@
     "stylelint-config-standard": "^19.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.14.2"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
