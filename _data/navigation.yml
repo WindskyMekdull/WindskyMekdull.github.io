@@ -31,8 +31,6 @@ header:
     url:           /myhelper
   - title:         索引
     url:           /indexxx/index
-  - title:         跳转
-    url:           /gotoproblem
   - title:         历史上的今天
     url:           /todayinhistory
   - title:         github
