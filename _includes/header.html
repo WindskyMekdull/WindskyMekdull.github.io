@@ -49,13 +49,17 @@
 
           <!--
           <li>
-          <button id="changeOpacity" style="color: #0366d6;">更改透明度</button>
+          <button id="changeOpacity" style="color: #0366d6;">深背景模式</button>
           <script>
             let btnOpacity = document.getElementById("changeOpacity");
             btnOpacity.addEventListener("click", () => {
-              document.body.style.opacity -= 0.1
-              console.log(document.body.style.opacity)
+              document.body.style.opacity = 0.6
+              console.log(0.6)
             });
+            btnOpacity.addEventListener("dblclick", () => {
+                document.body.style.opacity = 0.4
+                console.log(0.4)
+              });
           </script>
           </li>
           -->
