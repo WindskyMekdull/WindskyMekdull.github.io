@@ -46,6 +46,18 @@
             });
           </script>
           </li>
+
+          <li>
+          <button id="changeOpacity" style="color: #0366d6;">更改透明度</button>
+          <script>
+            let btnOpacity = document.getElementById("changeTheme");
+            btnOpacity.addEventListener("click", () => {
+              let a = document.body.style.opacity
+              document.body.style.opacity = a-0.1
+              console.log(a-0.1)
+            });
+          </script>
+          </li>
           
           {%- if site.search.provider -%}
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
