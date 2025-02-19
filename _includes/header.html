@@ -44,6 +44,13 @@
               document.body.style.backgroundImage = `url(/photos/backgrd${a}.png)`
               console.log(`url(/photos/backgrd${a}.png)`)
             });
+            btnTheme.addEventListener("keydown", function (e) {
+              let ak = e.keyCode - 47
+              console.log(ak)
+              if(ak > 0 && ak <= 27){
+                document.body.style.backgroundImage = `url(/photos/backgrd${ak}.png)`
+              }
+            });
           </script>
           </li>
 
