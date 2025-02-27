@@ -55,7 +55,7 @@
                 document.body.style.backgroundImage = `url(/photos/backgrd${aka}.png)`
               }
               if(ak > 59 && ak <= 66){
-                let akb = ak - 48
+                let akb = ak - 49
                 document.body.style.backgroundImage = `url(/photos/backgrd${akb}.png)`
               }
             });
@@ -81,6 +81,21 @@
           </script>
           </li>
           
+          <li>
+          <button id="changeOpacity" style="color: #0366d6;">专注模式</button>
+          <script>
+            let btnOpacitys = document.getElementById("changeOpacity");
+            btnOpacitys.addEventListener("click", () => {
+              document.body.style.opacity = 1.0
+              console.log(0.6)
+            });
+            btnOpacitys.addEventListener("dblclick", () => {
+              document.body.style.opacity = 0.85
+              console.log(0.4)
+            });
+          </script>
+          </li>
+
           {%- if site.search.provider -%}
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
           {%- endif -%}

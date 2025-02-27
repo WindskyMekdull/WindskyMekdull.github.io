@@ -30,8 +30,6 @@ header:
     url:           /indexxx/indexx
   - title:         工具
     url:           /mytools
-  - title:         github
-    url:           /togithub
   - title:         另一版本
     url:           /another
   - title:         友链
